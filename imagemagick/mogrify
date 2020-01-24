@@ -1,0 +1,13 @@
+remove color profiles
+
+    mogrify +profile "icc" file_name
+    
+ resize to fixed size (does some resample):
+ 
+     mogrify -resize 240x240 *.png
+     
+  resize bicubic (pixel art efeect stays)
+  
+     mogrify -sccale 1000% *.png
+     
+     
