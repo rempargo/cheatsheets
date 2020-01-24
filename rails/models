@@ -1,0 +1,6 @@
+# Rails Generators
+
+
+## models
+
+    rails g model Language name:string:uniq short_code:string{'2'}:uniq
